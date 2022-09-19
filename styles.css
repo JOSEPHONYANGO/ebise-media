@@ -182,6 +182,8 @@ li{
     
   }
 
+  
+
   #card img{
     height:90px;
     width:100px;
@@ -218,6 +220,30 @@ li{
     height: 300px;
     width: 100px;
 }
+
+.card img{
+width: 150px; 
+height: 150px; 
+object-fit: cover;
+object-position: 25% 25%; 
+}
+
+.card img{
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    object-position: 5% 5%; 
+    }
+
+.card two img{
+    width: 150px; 
+    height: 150px; 
+    object-fit:cover;
+    object-position: 20% 20%;
+
+}    
+
+
 
 .first img{
     padding: -200px 10px;
