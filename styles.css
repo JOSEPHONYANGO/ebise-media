@@ -377,7 +377,7 @@ object-position: 25% 25%;
 
 }
 #footer{
-    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    background-image: linear-gradient(to right,blue,darkblue);
     color:#fff;
 
 }
@@ -401,7 +401,8 @@ object-position: 25% 25%;
     text-align: center;
     padding-top: 7px;
     border-radius: 2px;
-    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    /* background-color: blue; */
+    background-image:linear-gradient(to right,blue,darkblue);
 
 }
 
@@ -417,7 +418,7 @@ object-position: 25% 25%;
     border:none;
     border-radius: 0;
     margin-top: 30px;
-    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    background-image:linear-gradient(to right,blue,darkblue);
 
 }
 .hr{
