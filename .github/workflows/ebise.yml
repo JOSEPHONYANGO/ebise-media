@@ -1,0 +1,25 @@
+name: Ebise Deployment
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Executing Deployments
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{secrets.SSH_KEY}}
+          port: ${{ secrets.HOST_PORT }}
+          script: |
+            whoami
+            # cd talanta
+            # git pull
+# Host = 54.37.142.38
+# username = ebisemed
+# sshk =
+# port = 1624
