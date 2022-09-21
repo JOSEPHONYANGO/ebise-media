@@ -16,11 +16,7 @@ jobs:
           key: ${{secrets.SSH_KEY}}
           port: ${{ secrets.HOST_PORT }}
           script: |
-            whoami
-            cd ebisemed
+            # whoami
+            cd public_html
             ls -l
             # git pull
-# Host = 54.37.142.38
-# username = ebisemed
-# sshk = GGG
-# port = 1624
