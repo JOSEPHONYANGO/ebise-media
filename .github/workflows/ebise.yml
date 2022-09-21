@@ -17,7 +17,8 @@ jobs:
           port: ${{ secrets.HOST_PORT }}
           script: |
             whoami
-            # cd talanta
+            cd ebisemed
+            ls -l
             # git pull
 # Host = 54.37.142.38
 # username = ebisemed
