@@ -16,7 +16,7 @@ jobs:
           key: ${{secrets.SSH_KEY}}
           port: ${{ secrets.HOST_PORT }}
           script: |
-            whoami
-            cd public_html
-            ls -l
+            git stash
             git pull
+            git stash pop
+            # git stash apply
