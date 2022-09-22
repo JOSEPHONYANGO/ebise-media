@@ -17,9 +17,4 @@ jobs:
           port: ${{ secrets.HOST_PORT }}
           script: |
             cd public_html
-            git reset -- hard
             git pull
-            # git stash
-            # git pull
-            # git stash pop
-            # git stash apply
