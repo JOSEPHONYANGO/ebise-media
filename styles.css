@@ -74,40 +74,21 @@ li {
 #banner {
     /* background-image: linear-gradient(to right,#a517ba,#5f1782); */
     color: #fff;
-    padding-top: 5%;
     background-image: url('images/maldive.jpg');
     background-position: center;
     height: 530px;
     background-size: cover;
-    /* filter: blur(1px);
-  -webkit-filter: blur(1px); */
-
-
-    /* color:#fff; */
-
-
 }
 
-/* .background{
-    background-image: url(../images/maldive.jpg);
-    background-position: center;
-    height: 600px;
-    background-size: cover; 
-    padding-top: 5%; 
-
-} */
 .first img {
-    /* height:auto; */
-    /*  */
-    width: 350px;
-    height: 150px;
     object-fit: contain;
-    /* border-radius: 50%; */
     margin-left: -150px;
-    margin-top: -450px;
-
-
-
+    /* margin-top: -450px; */
+    /* padding: -200px 10px; */
+    width: 500px;
+    /* width: 150%; */
+    height: 680px;
+    margin-bottom: -35px;
 }
 
 /* MEET THE TEAM */
@@ -120,22 +101,9 @@ li {
 
 }
 
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
 /* Add some shadows to create a card effect */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Some left and right padding inside the container */
-.container {
-    padding: 0 16px;
 }
 
 /* Clear floats */
@@ -178,43 +146,33 @@ li {
 
 #card {
     border: 2px solid gold;
-    padding: 16px;
+    padding: 8px;
     margin: 8px;
     width: 70%;
     height: 130px;
-    justify-content: center;
     margin-bottom: 0px;
-    margin-top: -95px;
+    margin-top: -245px;
     background-color: blue;
     display: flex;
-    justify-content: center;
     justify-content: space-around;
-    margin-left: 170px;
-
+    margin-left: 5%;
 }
-
-
 
 #card img {
     height: 90px;
     width: 100px;
     border-radius: 50%;
     align-items: flex-end;
-
 }
 
 #card .order {
     height: 60px;
     align-items: flex-end;
-
 }
 
 #card .card {
     color: blue;
     height: 20px;
-
-
-
 }
 
 .promo-title {
@@ -260,21 +218,8 @@ li {
 
 }
 
-
-
-.first img {
-    padding: -200px 10px;
-    height: 300px;
-    width: 500px;
-    margin-top: 5px;
-    /* margin-left: 10px;
-    margin-right: 10px; */
-}
-
-/* Industries */
 #industries {
-    padding-top: 120px;
-    margin-top: 150px;
+    padding: 30px 20px;
 }
 
 /* Services */
@@ -301,11 +246,6 @@ li {
     margin-top: 40px;
     /* text-transform: uppercase; */
 
-}
-
-#industries {
-    padding: 30px 20px;
-    margin: 30px 20px;
 }
 
 .title::before {
@@ -429,7 +369,6 @@ li {
 .footer-box img {
     width: 120px;
     margin-bottom: 20px;
-
 }
 
 .footer-box .fa {
@@ -470,4 +409,40 @@ li {
     margin-bottom: 0;
     padding-bottom: 0;
     text-align: center;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media only screen and (max-width: 650px) {
+    #banner {
+        /* background-image: linear-gradient(to right,#a517ba,#5f1782); */
+        color: #fff;
+        /* padding-top: 5%; */
+        background-image: url('images/maldive.jpg');
+        background-position: center;
+        height: 485px;
+        background-size: cover;
+    }
+
+    h2.promo-title {
+        font-size: 30px;
+    }
+
+    .first img {
+        height: 340px;
+        margin-top: -100px;
+        /* height: auto; */
+    }
+
+    #card {
+        /* padding-right: 3%; */
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -75px;
+        /* height: auto; */
+    }
+
+    #industries {
+        padding: 0px;
+        margin-top: 30px;
+    }
 }
